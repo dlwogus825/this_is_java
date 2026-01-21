@@ -32,10 +32,13 @@ public class Main {
 //        Q11.run();
 //
 //        Boksup B = new Boksup();
-//        B.run();
+////        B.run();
+//
+//        Q99 q99 = new Q99();
+//        q99.run();
 
-        Q99 q99 = new Q99();
-        q99.run();
+        Q12 q12 = new Q12();
+        q12.run();
 
         }
     }
