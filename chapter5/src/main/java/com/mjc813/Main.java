@@ -32,14 +32,25 @@ public class Main {
 //        Q11.run();
 //
 //        Boksup B = new Boksup();
-////        B.run();
+//      B.run();
 //
 //        Q99 q99 = new Q99();
 //        q99.run();
+//
+//        Q12 q12 = new Q12();
+//        q12.run();
+//
+//        Q4 q4 = new Q4();
+//        q4.run();
 
-        Q12 q12 = new Q12();
-        q12.run();
 
+//
+//        Q23 q23 = new Q23();
+//        q23.run();
+
+
+        Q22 q22 = new Q22();
+        q22.run();
         }
     }
 
