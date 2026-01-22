@@ -7,6 +7,7 @@ public class Q12 {
         double[] dAray = new double[25];
 
 
+
         for (int i = 0; i < dAray.length; i++) {
             double randomDouble = Math.random();
             dAray[i] = randomDouble * 100;

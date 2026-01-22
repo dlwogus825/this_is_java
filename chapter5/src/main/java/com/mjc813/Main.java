@@ -49,9 +49,36 @@ public class Main {
 //        q23.run();
 
 
-        Q22 q22 = new Q22();
-        q22.run();
-        }
+
+//
+//        Q31 q31 = new Q31();
+//        q31.run();
+//
+//        Q32 q32 = new Q32();
+//        q32.run();
+//
+//        Q33 q33 = new Q33();
+//        q33.run();
+//
+//        Q34 q34 = new Q34();
+//        q34.run();
+//
+//        Q35 q35 = new Q35();
+//        q35.run(args);
+//
+//        Q36 q36 = new Q36();
+//        q36.run();
+
+        Q37 q37 = new Q37();
+        q37.run();
+
+        Q37_1 q37_1 =new Q37_1();
+        q37_1.run();
+
+        Q38 q38 = new Q38();
+        q38.run();
+
+    }
     }
 
     //

@@ -1,5 +1,5 @@
 public class ThisJava {
-    public static void main(String[] args){
+    public void run(){
         System.out.println("This is java !");
     }
 }
