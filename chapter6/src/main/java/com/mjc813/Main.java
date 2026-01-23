@@ -26,5 +26,13 @@ public class Main {
         Q10 q10 = new Q10();
         q10.run();
 
+        Galaxy25use galaxy25 = new Galaxy25use();
+        galaxy25.run();
+
+        iphone14prouse iphone14prousing = new iphone14prouse();
+        iphone14prousing.run();
+
+
+
         }
     }

@@ -21,3 +21,4 @@ public class Car2 {
         this.maxSpeed = maxSpeed;
     }
 }
+
