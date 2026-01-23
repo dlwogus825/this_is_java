@@ -13,5 +13,7 @@ public class iphone14prouse {
         System.out.println("핸드폰무게" + iphone14.weight);
         System.out.println("핸드폰사이즈" + iphone14.size);
         System.out.println("핸드폰전번" + iphone14.phonenumber);
+
+        iphone14.run();
     }
 }

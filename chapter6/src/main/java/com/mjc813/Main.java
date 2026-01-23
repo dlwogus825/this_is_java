@@ -33,6 +33,11 @@ public class Main {
         iphone14prousing.run();
 
 
+        html0108use html = new html0108use();
+        html.run();
+
+        RPGgameuse rpg = new RPGgameuse();
+        rpg.run();
 
         }
     }

@@ -10,4 +10,14 @@ public class iphone14pro {
     int weight = 206;
     int size = 155;
     int phonenumber = 010-6494-7517;
-}
+
+
+
+    void run() {
+        
+                System.out.println("핸드폰 크기와 무게는 각각(" + weight + " gm " + size + " mm 입니다.)");
+
+           
+            }
+        }
+    
