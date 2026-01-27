@@ -10,7 +10,10 @@ public class Main {
 
         Q2 q2 = new Q2();
         q2.run();
+
+        Q3 q3 = new Q3();
+        q3.run();
+
         }
     }
 
-    
