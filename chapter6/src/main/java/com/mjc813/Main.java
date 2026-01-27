@@ -39,29 +39,36 @@ public class Main {
 //        RPGgameuse rpg = new RPGgameuse();
 //        rpg.run();
 
-        Q11 q11 = new Q11();
-        q11.run();
+//        Q11 q11 = new Q11();
+//        q11.run();
+//
+//        Q12 q12 = new Q12();
+//        q12.run();
+//
+//        Q13 q13 = new Q13();
+//        q13.run();
+//
+//        Q14 q14 = new Q14();
+//        q14.run();
+//
+//        Q15 q15 = new Q15();
+//        q15.run();
+//
+//        Q16 q16 = new Q16();
+//        q16.run();
+//
+//        Q17 q17 = new Q17();
+//        q17.run();
+//
+//        Q18 q18 = new Q18();
+//        q18.run();
+//
+//        Q19 q19 = new Q19();
+//        q19.run();
 
-        Q12 q12 = new Q12();
-        q12.run();
-
-        Q13 q13 = new Q13();
-        q13.run();
-
-        Q14 q14 = new Q14();
-        q14.run();
-
-        Q15 q15 = new Q15();
-        q15.run();
-
-        Q16 q16 = new Q16();
-        q16.run();
-
-        Q17 q17 = new Q17();
-        q17.run();
-
-        Q18 q18 = new Q18();
-        q18.run();
+        Q20 q20 = new Q20("철수");
+        q20.setName("영희");
 
         }
     }
+;
