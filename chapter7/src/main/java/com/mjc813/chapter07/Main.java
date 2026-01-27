@@ -4,15 +4,23 @@ package com.mjc813.chapter07;
 public class Main {
     public static void main(String[] args) {
 
-        Q1 q1 = new Q1();
-        q1.run();
+//        Q1 q1 = new Q1();
+//        q1.run();
+//
+//        Q2 q2 = new Q2();
+//        q2.run();
+//
+//        Q3 q3 = new Q3();
+//        q3.run();
+//
+//        Q4 q4 = new Q4();
+//        q4.run();
+//
+//        Q5 q5 = new Q5();
+//        q5.run();
 
-
-        Q2 q2 = new Q2();
-        q2.run();
-
-        Q3 q3 = new Q3();
-        q3.run();
+        Task4 task4 = new Task4();
+        task4.run();
 
         }
     }
