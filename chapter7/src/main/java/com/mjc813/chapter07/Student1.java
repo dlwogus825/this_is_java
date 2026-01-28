@@ -1,7 +1,13 @@
 package com.mjc813.chapter07;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
 public class Student1 extends Person{
-    public int studentNo;
+    private int studentNo;
 
     public Student1(String name, int studentNo){
         super(name);

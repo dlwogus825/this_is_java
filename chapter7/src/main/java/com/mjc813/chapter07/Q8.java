@@ -2,11 +2,11 @@ package com.mjc813.chapter07;
 
 public class Q8 {
     public static void personInfo(Person person){
-        System.out.println("name: "+ person.name);
+        System.out.println("name: "+ person.getClass());
         person.walk();
 
         if(person instanceof Student1 student) {
-            System.out.println("studentNo: " + student.studentNo);
+            System.out.println("studentNo: " + student.getStudentNo());
             student.study();  //
         }
     }
