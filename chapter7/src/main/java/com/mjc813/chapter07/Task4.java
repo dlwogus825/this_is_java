@@ -15,7 +15,7 @@ public class Task4 {
         Professor professor2 = new Professor("고교수");
         Professor professor3 = new Professor("수교수");
 
-        System.out.println("\n========== 교수 소개 ==========");
+//        System.out.println("\n========== 교수 소개 ==========");
 
 
         System.out.println("\n========== 수강 신청 ==========");
