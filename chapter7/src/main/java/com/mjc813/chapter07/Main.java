@@ -25,21 +25,24 @@ public class Main {
 //        Q6 q6 = new Q6();
 //        q6.run();
 
-        Q7 q7 = new Q7();
-        q7.run();
-
-//        Q8 q8 = new Q8();
+//        Q7 q7 = new Q7();
+//        q7.run();
+//
+//       Q8 q8 = new Q8();
 //        q8.run();
+//
+//        Q9 q9 = new Q9();
+//        q9.run();
+//
+//        Q10 q10 = new Q10();
+//        q10.run();
+//
+//        Q11 q11 = new Q11();
+//        q11.run();
 
-        Q9 q9 = new Q9();
-        q9.run();
 
-        Q10 q10 = new Q10();
-        q10.run();
-
-        Q11 q11 = new Q11();
-        q11.run();
-
+        Mjc813student m813 = new Mjc813student();
+        m813.study();
 
 
         }
