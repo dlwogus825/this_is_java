@@ -2,7 +2,7 @@ package com.mjc813;
 
 public class Q2 {
     public static void run(){
-        RemoteControl rc;
+        RemoteControl2 rc;
 
         rc = new Television();
         rc.turnOn();
