@@ -1,0 +1,3 @@
+rootProject.name = 'gradle_user_moudle'
+include 'gson_moudle'
+include 'main_moudle'
