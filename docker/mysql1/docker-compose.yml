@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root1234
-      MYSQL_DATABASE: mydb
+      MYSQL_DATABASE: beginner      # 기본 DB를 beginner로 변경
       MYSQL_USER: myuser
       MYSQL_PASSWORD: mypass1234
     ports:
