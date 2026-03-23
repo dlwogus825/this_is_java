@@ -1,471 +1,63 @@
-.frame {
-  background-color: #ffffff;
-  overflow: hidden;
+.inputField {
+  background-color: rgba(255, 235, 205, 0.3);
+}
+.inputField legend {
+  background-color: white;
+  border: 1px solid black;
+}
+.inputItem {
+  display: grid;
+  grid-template-columns: 150px auto;
+  /* justify-content: space-between; */
+}
+.text-wrapper {
+  border: 1px solid black;
+  margin: 2px;
+}
+.inputText {
+  width: 97%;
+  height: 64%;
+}
+.inputNumber {
+  width: 97%;
+  height: 64%;
+}
+.selectCombo {
   width: 100%;
-  min-width: 430px;
-  min-height: 588px;
-  position: relative;
+  height: 85%;
 }
-
-.frame .rectangle {
-  position: absolute;
-  top: 8px;
-  left: 21px;
-  width: 388px;
-  height: 320px;
-  background-color: #ffe3e3;
-  border: 1px solid;
-  border-color: #000000;
+.inputImage {
+  display: block;
 }
-
-.frame .text-on-a-path {
-  position: absolute;
-  top: 138px;
-  left: -59px;
-  width: 78px;
-  height: 28px;
+#showImage {
+  max-width: 100%;
+  max-height: 170px;
 }
-
-.frame .group {
-  top: 125px;
-  left: 36px;
-  width: 358px;
-  position: absolute;
-  height: 32px;
+.inputButtons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
 }
-
-.frame .div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 101px;
-  height: 32px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
+.btn-wrapper {
+  margin: 2px;
 }
-
-.frame .text-wrapper {
-  position: absolute;
-  top: 8px;
-  left: 23px;
-  text-shadow: 0px 4px 4px #00000040;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+.btn {
+  background-color: rgba(74, 243, 136, 0.5);
+  width: 100%;
+  height: 100%;
 }
-
-.frame .img {
-  position: absolute;
-  top: 0;
-  left: 113px;
-  width: 243px;
-  height: 32px;
+.listField {
+  background-color: rgba(147, 112, 216, 0.2);
 }
-
-.frame .group-2 {
-  top: 287px;
-  left: 37px;
-  width: 78px;
-  background-color: #cfffca;
-  position: absolute;
-  height: 32px;
+.listField legend {
+  background-color: white;
+  border: 1px solid black;
 }
-
-.frame .div-2 {
-  position: absolute;
-  top: 20px;
-  left: 36px;
-  width: 357px;
-  height: 262px;
+.listTitleRow {
+  display: grid;
+  grid-template-columns: 120px 120px auto;
 }
-
-.frame .group-3 {
-  top: 0;
-  left: 0;
-  width: 358px;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .group-4 {
-  top: 35px;
-  left: 0;
-  width: 358px;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .group-5 {
-  top: 69px;
-  left: 0;
-  width: 358px;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .group-6 {
-  top: 105px;
-  left: 0;
-  width: 358px;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .rectangle-2 {
-  position: absolute;
-  top: 35px;
-  left: 333px;
-  width: 24px;
-  height: 32px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .rectangle-3 {
-  position: absolute;
-  top: 69px;
-  left: 332px;
-  width: 24px;
-  height: 32px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .polygon {
-  top: 35px;
-  left: 335px;
-  position: absolute;
-  width: 21px;
-  height: 31px;
-}
-
-.frame .polygon-2 {
-  top: 69px;
-  left: 334px;
-  position: absolute;
-  width: 21px;
-  height: 31px;
-}
-
-.frame .rectangle-4 {
-  position: absolute;
-  top: 139px;
-  left: 1px;
-  width: 356px;
-  height: 123px;
-  object-fit: cover;
-}
-
-.frame .div-3 {
-  position: absolute;
-  top: 317px;
-  left: -15px;
-  width: 388px;
-  height: 234px;
-}
-
-.frame .rectangle-5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 388px;
-  height: 248px;
-  background-color: #dfd5ff;
-}
-
-.frame .rectangle-6 {
-  position: absolute;
-  top: 9px;
-  left: 6px;
-  width: 88px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .rectangle-7 {
-  position: absolute;
-  top: 9px;
-  left: 288px;
-  width: 94px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-2 {
-  top: 13px;
-  left: 16px;
-  text-shadow: 0px 4px 4px #00000040;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .rectangle-8 {
-  position: absolute;
-  top: 9px;
-  left: 98px;
-  width: 184px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-3 {
-  top: 13px;
-  left: 104px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .text-wrapper-4 {
-  top: 13px;
-  left: 301px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .rectangle-9 {
-  position: absolute;
-  top: 38px;
-  left: 6px;
-  width: 88px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .rectangle-10 {
-  position: absolute;
-  top: 38px;
-  left: 288px;
-  width: 94px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-5 {
-  top: 42px;
-  left: 16px;
-  text-shadow: 0px 4px 4px #00000040;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .rectangle-11 {
-  position: absolute;
-  top: 38px;
-  left: 98px;
-  width: 184px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-6 {
-  top: 42px;
-  left: 104px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .text-wrapper-7 {
-  top: 42px;
-  left: 301px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .div-4 {
-  position: absolute;
-  top: 67px;
-  left: 6px;
-  width: 376px;
-  height: 25px;
-}
-
-.frame .rectangle-12 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 88px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .rectangle-13 {
-  position: absolute;
-  top: 0;
-  left: 282px;
-  width: 94px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-8 {
-  top: 4px;
-  left: 10px;
-  text-shadow: 0px 4px 4px #00000040;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .rectangle-14 {
-  position: absolute;
-  top: 0;
-  left: 92px;
-  width: 184px;
-  height: 25px;
-  background-color: #f1f1f1;
-  border: 1px solid;
-  border-color: #000000;
-}
-
-.frame .text-wrapper-9 {
-  top: 4px;
-  left: 98px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .text-wrapper-10 {
-  top: 4px;
-  left: 295px;
-  width: 81px;
-  text-shadow: 0px 4px 4px #00000040;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .text-wrapper-11 {
-  top: 294px;
-  left: 62px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .group-7 {
-  top: 287px;
-  left: 128px;
-  width: 78px;
-  background-color: #cfffca;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .text-wrapper-12 {
-  top: 294px;
-  left: 153px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .group-8 {
-  top: 287px;
-  left: 219px;
-  width: 78px;
-  background-color: #cfffca;
-  position: absolute;
-  height: 32px;
-}
-
-.frame .text-wrapper-13 {
-  top: 294px;
-  left: 244px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
+.listDataRow {
+  display: grid;
+  grid-template-columns: 120px 120px auto;
 }
