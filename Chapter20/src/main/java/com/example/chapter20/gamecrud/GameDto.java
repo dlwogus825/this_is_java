@@ -1,13 +1,11 @@
 package com.example.chapter20.gamecrud;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 public class GameDto {
     private Integer id;
@@ -16,5 +14,4 @@ public class GameDto {
     private String grade;
     private Integer price;
     private String imgUrl;
-
 }
